@@ -6,8 +6,8 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AquaShield | Groundwater Intelligence for India",
-  description: "Explore groundwater salinization across India with AquaShield’s interactive map and AI map copilot.",
+  title: "AquaShield | Groundwater Map of India",
+  description: "Explore groundwater conditions across India with a map-first research interface. Predictions appear when validated data is connected.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
